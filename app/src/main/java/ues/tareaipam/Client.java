@@ -6,9 +6,10 @@ import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 
-public class client extends AppCompatActivity {
+public class Client extends AppCompatActivity {
 
     private Spinner pay;
+    private ClientManager[] cli;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +22,7 @@ public class client extends AppCompatActivity {
         pay.setAdapter(adaptadorPay);
 
     }
+
 
 
 }
