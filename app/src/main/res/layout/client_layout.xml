@@ -52,7 +52,7 @@
             android:textStyle="bold"
             android:textSize="13pt" />
         <EditText
-            android:id="@+id/lblLast"
+            android:id="@+id/Last"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="@string/HintLast"
@@ -70,7 +70,7 @@
             android:textStyle="bold"
             android:textSize="13pt" />
         <EditText
-            android:id="@+id/lbID"
+            android:id="@+id/ID"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="@string/HintID"
@@ -93,7 +93,8 @@
         <RadioGroup
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:id="@+id/typeC">
 
             <RadioButton
                 android:id="@+id/Whole"
