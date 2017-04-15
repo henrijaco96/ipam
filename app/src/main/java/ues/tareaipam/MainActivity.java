@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
         switch (item.getItemId()) {
             case R.id.Add:
-                Intent intent = new Intent(MainActivity.this,client.class);
+                Intent intent = new Intent(MainActivity.this,Client.class);
                 startActivity(intent);
                 break;
         }

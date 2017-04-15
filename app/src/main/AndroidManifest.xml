@@ -16,7 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".client"></activity>
+        <activity android:name=".Client"></activity>
     </application>
 
 </manifest>

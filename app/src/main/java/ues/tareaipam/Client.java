@@ -3,13 +3,18 @@ package ues.tareaipam;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.Spinner;
 
 public class Client extends AppCompatActivity {
 
     private Spinner pay;
     private ClientManager[] cli;
+    Button save = (Button) findViewById(R.id.ButtonSave);
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +26,21 @@ public class Client extends AppCompatActivity {
         pay = (Spinner)findViewById(R.id.paySpinner);
         pay.setAdapter(adaptadorPay);
 
+        save.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+
     }
+
+
+
+
+
+
 
 
 
