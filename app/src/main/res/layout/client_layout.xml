@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Cod"
+            android:textStyle="bold"
+            android:textSize="13pt" />
+        <EditText
+            android:id="@+id/Code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/HintCode"
+            android:textStyle="normal"
+            android:textSize="12pt" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Name"
+            android:textStyle="bold"
+            android:textSize="13pt" />
+        <EditText
+            android:id="@+id/Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/HintName"
+            android:textStyle="normal"
+            android:textSize="12pt" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/LastName"
+            android:textStyle="bold"
+            android:textSize="13pt" />
+        <EditText
+            android:id="@+id/lblLast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/HintLast"
+            android:textStyle="normal"
+            android:textSize="12pt"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ID"
+            android:textStyle="bold"
+            android:textSize="13pt" />
+        <EditText
+            android:id="@+id/lbID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/HintID"
+            android:textStyle="normal"
+            android:textSize="12pt"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Type"
+        android:textStyle="bold"
+        android:textSize="13pt"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/Whole"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Who"
+                android:textSize="12pt"
+                android:textStyle="normal" />
+
+            <RadioButton
+                android:id="@+id/Reta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Ret"
+                android:textStyle="normal"
+                android:textSize="12pt"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Payment"
+            android:textSize="13pt"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/paySpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13pt"
+            android:textStyle="normal">
+
+        </Spinner>
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/ButtonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ButtonS"
+        android:textSize="13pt"
+        android:orientation="horizontal"/>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">TareaIPAM</string>
+    <string name="Cod">Code</string>
+    <string name="HintCode">Client Code</string>
+    <string name="Name">Name</string>
+    <string name="HintName">Client Name</string>
+    <string name="LastName">Last Name</string>
+    <string name="HintLast">Client Last Name</string>
+    <string name="Payment">Method of payment</string>
+    <string name="Type">Client type</string>
+    <string name="Who">Wholesaler</string>
+    <string name="Ret">Retailer</string>
+    <string name="ID">ID</string>
+    <string name="HintID">Client ID number</string>
+    <string name="Cli">Clients</string>
+    <string name="Add">Add new client</string>
+    <string name="ButtonS">Save</string>
+
+    <string-array name="PayArray">
+        <item name="cash">Pay cash</item>
+        <item name="Credit">Credit</item>
+        <item name="Advance">Advance payment</item>
+    </string-array>
+</resources>
